@@ -1,6 +1,8 @@
 generic-unspendable
 ====================
 
+-- Temporary Test script --
+
 The generic-unspendable script generates a valid base58 encoded address string that meets the validation checks for most cryptocurrency networks but is generated in such a way that the private key can never be found. This is useful for generating a coin burn address where any coins sent to the address can never be recovered. Using this method also allows injecting a vanity keyword into the address so that the address visibly looks much less like a random address and more like the burn address it is meant to be.
 
 USAGE:
